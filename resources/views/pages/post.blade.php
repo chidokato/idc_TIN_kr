@@ -47,41 +47,45 @@
             <div class="col-lg-3 d-none d-lg-block">
 
                 <div class="widget widget-list mb-3">
-                    <!-- <h4><span>Tin tức</span></h4> -->
-                    <ul>
-                        <li><a href="market-news"><i class="icon-next me-2"></i>Market News</a></li>
-                        <li><a href="internal-news"><i class="icon-next me-2"></i>Internal News</a></li>
+                    <h4><span>뉴스 카테고리</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="market-news"><i class="icon-next me-2"></i>시장 뉴스</a></li>
+                        <li><a href="internal-news"><i class="icon-next me-2"></i>사내 뉴스</a></li>
                     </ul>
                 </div>
 
+
                 
                 <div class="widget widget-list widget-news mb-3">
-                    <h4><span>Tin xem nhiều</span></h4>
-                    @foreach($related_post as $key => $val)
-                    @if($key == 0)
-                    <a href="{{$val->category->slug}}/{{$val->slug}}" class="news-item-captain">
-                        <div class="news-item-captain-img">
-                            <div class="news-item-captain-img-wrap">
-                                <img src="assets/images/space-3.gif" style="background-image: url('data/images/{{$val->img}}');" alt="" class="w-100">
-                                <span class="date"><i class="icon-time me-1"></i>{{date_format($val->updated_at,"d/m/Y")}}</span>
-                            </div>
-                        </div>
-                        <div class="news-item-captain-body">
-                            <h5>{{$val->name}}</h5>
-                            <p class="mb-0  text-truncate-set text-truncate-set-2">Chính chủ cần chuyển nhượng gấp căn 2 ngủ diện tích thông thủy 78m2 full đồ, khách mua chỉ cần dọn quần áo đến có thể ở ngay</p>
-                        </div>
-                    </a>
-                    @else
-                    <a href="{{$val->category->slug}}/{{$val->slug}}" class="news-item">
-                        <span><img src="assets/images/space-3.gif" style="background-image: url('data/images/{{$val->img}}');" alt="" class="w-100"></span>
-                        <div class="news-item-body">
-                            <span class="date"><i class="icon-time me-1"></i>{{date_format($val->updated_at,"d/m/Y")}}</span>
-                            <p class="mb-0 text-truncate-set text-truncate-set-2">{{$val->name}}</p>
-                        </div>
-                    </a>
-                    @endif
-                    @endforeach
-                </div>
+    <h4><span>인기 뉴스</span></h4>
+    @foreach($related_post as $key => $val)
+    @if($key == 0)
+    <a href="{{$val->category->slug}}/{{$val->slug}}" class="news-item-captain">
+        <div class="news-item-captain-img">
+            <div class="news-item-captain-img-wrap">
+                <img src="assets/images/space-3.gif" style="background-image: url('data/images/{{$val->img}}');" alt="" class="w-100">
+                <span class="date"><i class="icon-time me-1"></i>{{date_format($val->updated_at,"Y.m.d")}}</span>
+            </div>
+        </div>
+        <div class="news-item-captain-body">
+            <h5>{{$val->name}}</h5>
+            <p class="mb-0 text-truncate-set text-truncate-set-2">
+                실소유자가 급히 매도합니다. 전용면적 78㎡, 풀옵션 2룸 아파트 — 구매자는 바로 입주 가능합니다.
+            </p>
+        </div>
+    </a>
+    @else
+    <a href="{{$val->category->slug}}/{{$val->slug}}" class="news-item">
+        <span><img src="assets/images/space-3.gif" style="background-image: url('data/images/{{$val->img}}');" alt="" class="w-100"></span>
+        <div class="news-item-body">
+            <span class="date"><i class="icon-time me-1"></i>{{date_format($val->updated_at,"Y.m.d")}}</span>
+            <p class="mb-0 text-truncate-set text-truncate-set-2">{{$val->name}}</p>
+        </div>
+    </a>
+    @endif
+    @endforeach
+</div>
+
 
             </div>
         </div>

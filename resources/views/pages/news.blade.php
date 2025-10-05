@@ -19,7 +19,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="{{asset('')}}">Indochine</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">News</li>
+                        <li class="breadcrumb-item active" aria-current="page">뉴스</li>
                         </ol>
                     </nav>
                 </section>
@@ -31,9 +31,9 @@
                         <div class="col-lg-6">
                             <div class="input-group search-input">
                                 <span class="input-group-text border100"><i class="icon-search"></i></span>
-                                <input type="text" class="form-control" placeholder="Enter keyword">
+                                <input type="text" class="form-control" placeholder="키워드 입력">
                             </div>
-                            <button type="submit" class="btn btn-circle">Search</button>
+                            <button type="submit" class="btn btn-circle">검색</button>
                         </div>
                     </div>
                 </form>
@@ -42,6 +42,7 @@
         
     </div>
 </section>
+
 
 
 <section class="card-grid news-sec">
@@ -87,7 +88,7 @@
                                     <h5 class="card-title"><a href="{{$val->category->slug}}/{{$val->slug}}">{{$val->name}}</a></h5>
                                     <div class="card-info">
                                         <span><i class="icon-time me-2"></i>{{date_format($val->updated_at,"d/m/Y")}}</span>
-                                        <span><i class="icon-user me-2"></i>{{ optional($val->User)->yourname ?? 'User' }}</span>
+                                        <span><i class="icon-user me-2"></i>{{ optional($val->User)->yourname ?? '사용자' }}</span>
                                     </div>
                                     <p class="mb-0 text-truncate-set text-truncate-set-3">{{$val->detail}}</p>
                                 </div>
@@ -104,14 +105,14 @@
                 <div class="widget widget-list mb-3">
                     <!-- <h4><span>Tin tức</span></h4> -->
                     <ul>
-                        <li><a href="market-news"><i class="icon-next me-2"></i>Market News</a></li>
-                        <li><a href="internal-news"><i class="icon-next me-2"></i>Internal News</a></li>
+                        <li><a href="market-news"><i class="icon-next me-2"></i>시장 뉴스</a></li>
+                        <li><a href="internal-news"><i class="icon-next me-2"></i>사내 뉴스</a></li>
                     </ul>
                 </div>
 
                 
                 <div class="widget widget-list widget-news mb-3">
-                    <h4><span>Most Viewed News</span></h4>
+                    <h4><span>가장 많이 본 뉴스</span></h4>
                     @foreach($posts as $key => $val)
                     @if($key == 0)
                     <a href="{{$val->category->slug}}/{{$val->slug}}" class="news-item-captain">
@@ -142,6 +143,7 @@
         </div>
     </div>
 </section>
+
 <!------------------- END CARD ------------------->
 
 
