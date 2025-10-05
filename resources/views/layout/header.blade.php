@@ -16,7 +16,7 @@
           <div class="navbar-collapse flex-grow-1" id="navbarsExample07XL">
             <ul class="collapse navbar-nav mb-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{{asset('')}}">Home</a>
+                    <a class="nav-link" href="{{asset('')}}">홈페이지</a>
                 </li>
                 @foreach($menu as $key => $val)
                     @if($val->parent == 0)
