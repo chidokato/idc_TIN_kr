@@ -10,42 +10,27 @@
 @endsection
 @section('content')
 
-<!-- <div class="breadcrumbs_area">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="breadcrumb_content">
-                    <ul>
-                        <li><a href="{{asset('')}}">Trang chủ</a></li>
-                        <li>{{$data->name}}</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
 <div class="contact_area">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Công ty Cổ Phần Bất Động Sản INDOCHINE</h1>
+                <h1>INDOCHINE 부동산 주식회사</h1>
                 <div class="review-map">
                     <ul class="nav review-tabs" role="tablist">
                         <li>
-                            <button class="active" data-bs-toggle="tab" data-bs-target="#map-type-1" type="button">Hà Nội</button>
+                            <button class="active" data-bs-toggle="tab" data-bs-target="#map-type-1" type="button">하노이</button>
                         </li>
                         <li>
-                            <button class="" data-bs-toggle="tab" data-bs-target="#map-type-2" type="button">Hồ Chí Minh</button>
+                            <button class="" data-bs-toggle="tab" data-bs-target="#map-type-2" type="button">호찌민</button>
                         </li>
                         <li>
-                            <button class="" data-bs-toggle="tab" data-bs-target="#map-type-3" type="button">Quảng Ninh</button>
+                            <button class="" data-bs-toggle="tab" data-bs-target="#map-type-3" type="button">꽝닌</button>
                         </li>
                         <li>
-                            <button class="" data-bs-toggle="tab" data-bs-target="#map-type-4" type="button">Bắc Ninh</button>
+                            <button class="" data-bs-toggle="tab" data-bs-target="#map-type-4" type="button">박닌</button>
                         </li>
                         <li>
-                            <button class="" data-bs-toggle="tab" data-bs-target="#map-type-5" type="button">Bắc Giang</button>
+                            <button class="" data-bs-toggle="tab" data-bs-target="#map-type-5" type="button">박장</button>
                         </li>
                     </ul>
                     <div class="tab-content">
@@ -53,12 +38,12 @@
                             <div class="row">
                                 <div class="col-md-5 main-info">
                                     <div class="info">
-                                        <h3>Trụ sở chính</h3>
+                                        <h3>본사</h3>
                                         <ul>
-                                            <li><i class="icon-building-filled"></i> <strong>Địa chỉ:</strong> {{$setting->address}}</li>
-                                            <li><i class="icon-phone-filled"></i> <strong>Điện thoại:</strong> {{$setting->hotline}}</li>
-                                            <li><i class="icon-mail-filled"></i> <strong>Email:</strong> {{$setting->email}}</li>
-                                            <li><i class="icon-time"></i> <strong>Thời gian làm việc:</strong> Từ thứ Hai đến thứ Bảy. Sáng: 8h00 - 12h00, Chiều: 1h30 - 5h30</li>
+                                            <li><i class="icon-building-filled"></i> <strong>주소:</strong> {{$setting->address}}</li>
+                                            <li><i class="icon-phone-filled"></i> <strong>전화번호:</strong> {{$setting->hotline}}</li>
+                                            <li><i class="icon-mail-filled"></i> <strong>이메일:</strong> {{$setting->email}}</li>
+                                            <li><i class="icon-time"></i> <strong>근무 시간:</strong> 월요일~토요일 / 오전 8:00 - 12:00, 오후 1:30 - 5:30</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -73,12 +58,12 @@
                             <div class="row">
                                 <div class="col-md-5 main-info">
                                     <div class="info">
-                                        <h3>Trụ sở chính</h3>
+                                        <h3>본사</h3>
                                         <ul>
-                                            <li><i class="icon-building-filled"></i> <strong>Địa chỉ:</strong> {{$setting->address}}</li>
-                                            <li><i class="icon-phone-filled"></i> <strong>Điện thoại:</strong> {{$setting->hotline}}</li>
-                                            <li><i class="icon-mail-filled"></i> <strong>Email:</strong> {{$setting->email}}</li>
-                                            <li><i class="icon-time"></i> <strong>Thời gian làm việc:</strong> Từ thứ Hai đến thứ Bảy. Sáng: 8h00 - 12h00, Chiều: 1h30 - 5h30</li>
+                                            <li><i class="icon-building-filled"></i> <strong>주소:</strong> {{$setting->address}}</li>
+                                            <li><i class="icon-phone-filled"></i> <strong>전화번호:</strong> {{$setting->hotline}}</li>
+                                            <li><i class="icon-mail-filled"></i> <strong>이메일:</strong> {{$setting->email}}</li>
+                                            <li><i class="icon-time"></i> <strong>근무 시간:</strong> 월요일~토요일 / 오전 8:00 - 12:00, 오후 1:30 - 5:30</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -93,12 +78,12 @@
                             <div class="row">
                                 <div class="col-md-5 main-info">
                                     <div class="info">
-                                        <h3>Trụ sở chính</h3>
+                                        <h3>본사</h3>
                                         <ul>
-                                            <li><i class="icon-building-filled"></i> <strong>Địa chỉ:</strong> {{$setting->address}}</li>
-                                            <li><i class="icon-phone-filled"></i> <strong>Điện thoại:</strong> {{$setting->hotline}}</li>
-                                            <li><i class="icon-mail-filled"></i> <strong>Email:</strong> {{$setting->email}}</li>
-                                            <li><i class="icon-time"></i> <strong>Thời gian làm việc:</strong> Từ thứ Hai đến thứ Bảy. Sáng: 8h00 - 12h00, Chiều: 1h30 - 5h30</li>
+                                            <li><i class="icon-building-filled"></i> <strong>주소:</strong> {{$setting->address}}</li>
+                                            <li><i class="icon-phone-filled"></i> <strong>전화번호:</strong> {{$setting->hotline}}</li>
+                                            <li><i class="icon-mail-filled"></i> <strong>이메일:</strong> {{$setting->email}}</li>
+                                            <li><i class="icon-time"></i> <strong>근무 시간:</strong> 월요일~토요일 / 오전 8:00 - 12:00, 오후 1:30 - 5:30</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -113,12 +98,12 @@
                             <div class="row">
                                 <div class="col-md-5 main-info">
                                     <div class="info">
-                                        <h3>Trụ sở chính</h3>
+                                        <h3>본사</h3>
                                         <ul>
-                                            <li><i class="icon-building-filled"></i> <strong>Địa chỉ:</strong> {{$setting->address}}</li>
-                                            <li><i class="icon-phone-filled"></i> <strong>Điện thoại:</strong> {{$setting->hotline}}</li>
-                                            <li><i class="icon-mail-filled"></i> <strong>Email:</strong> {{$setting->email}}</li>
-                                            <li><i class="icon-time"></i> <strong>Thời gian làm việc:</strong> Từ thứ Hai đến thứ Bảy. Sáng: 8h00 - 12h00, Chiều: 1h30 - 5h30</li>
+                                            <li><i class="icon-building-filled"></i> <strong>주소:</strong> {{$setting->address}}</li>
+                                            <li><i class="icon-phone-filled"></i> <strong>전화번호:</strong> {{$setting->hotline}}</li>
+                                            <li><i class="icon-mail-filled"></i> <strong>이메일:</strong> {{$setting->email}}</li>
+                                            <li><i class="icon-time"></i> <strong>근무 시간:</strong> 월요일~토요일 / 오전 8:00 - 12:00, 오후 1:30 - 5:30</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -133,12 +118,12 @@
                             <div class="row">
                                 <div class="col-md-5 main-info">
                                     <div class="info">
-                                        <h3>Trụ sở chính</h3>
+                                        <h3>본사</h3>
                                         <ul>
-                                            <li><i class="icon-building-filled"></i> <strong>Địa chỉ:</strong> {{$setting->address}}</li>
-                                            <li><i class="icon-phone-filled"></i> <strong>Điện thoại:</strong> {{$setting->hotline}}</li>
-                                            <li><i class="icon-mail-filled"></i> <strong>Email:</strong> {{$setting->email}}</li>
-                                            <li><i class="icon-time"></i> <strong>Thời gian làm việc:</strong> Từ thứ Hai đến thứ Bảy. Sáng: 8h00 - 12h00, Chiều: 1h30 - 5h30</li>
+                                            <li><i class="icon-building-filled"></i> <strong>주소:</strong> {{$setting->address}}</li>
+                                            <li><i class="icon-phone-filled"></i> <strong>전화번호:</strong> {{$setting->hotline}}</li>
+                                            <li><i class="icon-mail-filled"></i> <strong>이메일:</strong> {{$setting->email}}</li>
+                                            <li><i class="icon-time"></i> <strong>근무 시간:</strong> 월요일~토요일 / 오전 8:00 - 12:00, 오후 1:30 - 5:30</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -155,6 +140,8 @@
         </div>
     </div>
 </div>
+
+
 
 @endsection
 @section('script')
