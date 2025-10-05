@@ -123,7 +123,8 @@ class MenuController extends Controller
         }
         // thêm ảnh
         $menu->save();
-        return redirect()->back();
+        // return redirect()->back();
+        return redirect('admin/menu')->with('success','updated successfully');
     }
 
     /**
