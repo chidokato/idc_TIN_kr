@@ -50,29 +50,29 @@
         <div class="col-md-12">
             <nav aria-label="breadcrumb" class="main-breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{asset('')}}">Indochine</a></li>
+                    <li class="breadcrumb-item"><a href="{{asset('')}}">인도차이나</a></li>
                     <li class="breadcrumb-item"><a href="{{$post->category->slug}}">{{$post->category->name}}</a></li>
                     <li class="breadcrumb-item active" aria-current="page">{{$post->name}}</li>
                 </ol>
                 <div class="sub">
-                    @if($post->monopoly == 1)<span class="bg-secondary">Exclusive <i class="ms-1 icon-check"></i></span>@endif
-                    @if($post->for_sale == 1)<span class="bg-secondary">Now Selling <i class="ms-1 icon-check"></i></span>@endif
-                    @if($post->new_product == 1)<span class="bg-secondary">Newly Launched <i class="ms-1 icon-check"></i></span>@endif
+                    @if($post->monopoly == 1)<span class="bg-secondary">독점 매물 <i class="ms-1 icon-check"></i></span>@endif
+                    @if($post->for_sale == 1)<span class="bg-secondary">분양 중 <i class="ms-1 icon-check"></i></span>@endif
+                    @if($post->new_product == 1)<span class="bg-secondary">신규 분양 <i class="ms-1 icon-check"></i></span>@endif
                 </div>
             </nav>
             <div class="heading">
                 <div class="left">
                     <h1 class="text-uppercase title-cat">{{$post->name}}</h1>
-                    <div class="address"><i class="icon-location me-1"></i> {{$post->address}}{{ $post->street_id ? ', '.$post->Street->name:'' }}{{$post->ward_id? ', '.$post->Ward->name:''}}{{', '.$post->District->name}}{{', '.$post->Province->name}} <a href="">View on Map</a></div>
+                    <div class="address"><i class="icon-location me-1"></i> {{$post->address}}{{ $post->street_id ? ', '.$post->Street->name:'' }}{{$post->ward_id? ', '.$post->Ward->name:''}}{{', '.$post->District->name}}{{', '.$post->Province->name}} <a href="">지도 보기</a></div>
                 </div>
                 <div class="right">
-                    <div class="price"> <span style="font-size: 1.2rem;">Price: </span>
-                        {{$post->price >= 1000000000?$post->price/1000000000 . ' Billion': ($post->price? $post->price/1000000 . ' Million':'Contact') }}
-                        {{$post->price_max >= 1000000000? ' - ' . $post->price_max/1000000000 . ' Billion':($post->price_max?' - ' . $post->price_max/1000000 . ' Million':'')}}
+                    <div class="price"> <span style="font-size: 1.2rem;">가격: </span>
+                        {{$post->price >= 1000000000?$post->price/1000000000 . ' 억 원': ($post->price? $post->price/1000000 . ' 만 원':'문의') }}
+                        {{$post->price_max >= 1000000000? ' - ' . $post->price_max/1000000000 . ' 억 원':($post->price_max?' - ' . $post->price_max/1000000 . ' 만 원':'')}}
                     </div>
                     <div class="price_acreage">
                         @if($post->unit=='Tỷ')
-                        {{ $post->acreage ? number_format($post->price*1000000000/$post->acreage/1000000, 2) : '...'}} triệu/m<sup>2</sup>
+                        {{ $post->acreage ? number_format($post->price*1000000000/$post->acreage/1000000, 2) : '...'}} 만 원/m<sup>2</sup>
                         @elseif($post->unit=='Triệu')
                         <?php 
                             if ($post->acreage) {
@@ -85,8 +85,8 @@
             </div>
             <div class="status">
                 <span> {!! $post->acreage ? '<i class="icon-acreage me-1"></i>'.$post->acreage.($post->acreage_max ? ' - '.$post->acreage_max : '').' m<sup>2</sup>' : '' !!}</span>
-                <span> {!! $post->bedroom ? '<i class="icon-bed me-1"></i>'.$post->bedroom.($post->bedroom_max ? ' - '.$post->bedroom_max : '').' PN' : '' !!}</span>
-                <span> {!! $post->wc ? '<i class="icon-bathroom me-1"></i>'.$post->wc.($post->wc_max ? ' - '.$post->wc_max : '').' WC' : '' !!}</span>
+                <span> {!! $post->bedroom ? '<i class="icon-bed me-1"></i>'.$post->bedroom.($post->bedroom_max ? ' - '.$post->bedroom_max : '').' 침실' : '' !!}</span>
+                <span> {!! $post->wc ? '<i class="icon-bathroom me-1"></i>'.$post->wc.($post->wc_max ? ' - '.$post->wc_max : '').' 욕실' : '' !!}</span>
             </div>
             <hr>
         </div>
@@ -205,21 +205,22 @@
                             <img src="assets/images/logo-01_45.png">
                         </div>
                         <div class="right">
-                            <h5>Contact for Consultation</h5>
-                            <p>Our consultants are ready to assist</p>
+                            <h5>상담 문의</h5>
+                            <p>전문 상담원이 도와드립니다.</p>
                         </div>
                     </div>
                     <div class="hotline"> <a href="tel:{{$setting->hotline}}"><i class="icon-phone"></i> {{$setting->hotline}}</a> </div>
                 </div>
                 
                 <div class="pupup click_popup">
-                    <a href="javascript:void(0)"><button> <img src="assets/images/icon-document-register.svg"> Register to Receive Project Documents</button></a>
+                    <a href="javascript:void(0)"><button> <img src="assets/images/icon-document-register.svg"> 프로젝트 자료 신청하기</button></a>
                 </div>
             </div>
             
         </div>
     </div>
 </div>
+
 <!-- @foreach($sections as $key => $section)
 @if($section->status == 0)
 <div class="main-content container">
