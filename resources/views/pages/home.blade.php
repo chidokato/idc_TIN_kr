@@ -40,10 +40,10 @@
         <div class="cover-title-home">
             <div class="text-start">
                 <div class="cover-title">
-                    <h2><span class="cover-title-filled text-main">Flagship Projects</span></h2>
+                    <h2><span class="cover-title-filled text-main">대표 프로젝트</span></h2>
                 </div>
                 <div class="cover-descip">
-                    <p>Signature projects by INDOCHINE, exclusively developed, managed, and distributed by INDOCHINE</p>
+                    <p>INDOCHINE이 독점적으로 개발, 관리 및 분양하는 시그니처 프로젝트</p>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@
 
         <div class="load-more text-center mt-4 pt-2">
             <div class="cta-btn ir">
-                <a class="" target="_blank" href="du-an"><span class="cta-text font-weight-semibold">View All</span><span class="cta-ico"><i class="icon-next"></i></span></a>
+                <a class="" target="_blank" href="du-an"><span class="cta-text font-weight-semibold">모두 보기</span><span class="cta-ico"><i class="icon-next"></i></span></a>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
         <div class="cover-title-home">
             <div class="text-start">
                 <div class="cover-title">
-                    <h2><span class="cover-title-filled text-main">Nationwide Projects</span></h2>
+                    <h2><span class="cover-title-filled text-main">전국 프로젝트</span></h2>
                 </div>
             </div>
         </div>
@@ -120,10 +120,10 @@
         <div class="cover-title-home">
             <div class="text-start">
                 <div class="cover-title">
-                    <h2><span class="cover-title-filled text-main">News</span></h2>
+                    <h2><span class="cover-title-filled text-main">뉴스</span></h2>
                 </div>
                 <div class="cover-descip">
-                    <p>Get the latest updates from INDOCHINE and the real estate market</p>
+                    <p>INDOCHINE과 부동산 시장의 최신 소식을 받아보세요</p>
                 </div>
             </div>
         </div>
@@ -160,7 +160,7 @@
         </div>
         <div class="load-more text-center mt-4 pt-2">
             <div class="cta-btn ir">
-                <a class="" href="tin-tuc"><span class="cta-text font-weight-semibold">View all</span><span class="cta-ico"><i class="icon-next"></i></span></a>
+                <a class="" href="tin-tuc"><span class="cta-text font-weight-semibold">모두 보기</span><span class="cta-ico"><i class="icon-next"></i></span></a>
             </div>
         </div>
     </div>
