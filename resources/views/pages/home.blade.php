@@ -93,7 +93,7 @@
                             <span class="card-overlay-img"><img src="assets/images/space-2.gif" alt="" class="w-100 thumb" style="background-image: url('data/images/{{$provinces[$key]->img}}');"></span>
                             <div class="card-overlay-body">
                                 <h2><span>{{$provinces[$key]->name}}</span></h2>
-                                <div>{{ count($provinces[$key]->Post) }} Products</div>
+                                <div>{{ count($provinces[$key]->Post) }} 프로젝트</div>
                             </div>
                         </a>
                     </div>
@@ -102,7 +102,7 @@
                             <span class="card-overlay-img"><img src="assets/images/space-2.gif" alt="" class="w-100 thumb" style="background-image: url('data/images/{{$provinces[$key+1]->img}}');"></span>
                             <div class="card-overlay-body">
                                 <h2><span>{{$provinces[$key+1]->name}}</span></h2>
-                                <div>{{ count($provinces[$key+1]->Post) }} Products</div>
+                                <div>{{ count($provinces[$key+1]->Post) }} 프로젝트</div>
                             </div>
                         </a>
                     </div>
