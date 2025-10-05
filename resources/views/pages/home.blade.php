@@ -151,7 +151,7 @@
                         <span><img src="assets/images/space-1.gif" style="background-image: url('data/images/{{$val->img}}')" alt="" class="w-100 thumb"></span>
                         <div class="news-item-body">
                             <p class="mb-0 text-truncate-set text-truncate-set-2">{{$val->name}} </p>
-                            <p class="mb-0 text-truncate-set text-truncate-set-2">{{$val->ditail}} </p>
+                            <p class="mb-0 text-truncate-set text-truncate-set-2">{{$val->detail}} </p>
                         </div>
                     </a>
                     @endif
