@@ -3,9 +3,9 @@
         <a href="{{$val->category->slug}}/{{$val->slug}}">
             <span><img src="assets/images/space-3.gif" class="card-img-top" style="background-image: url('data/images/{{$val->img?$val->img:'no_image.jpg'}}');" alt="..."></span>
             <span class="cat">
-                {!! $val->monopoly?'<span class="room-status bg-red">Exclusive</span>':'' !!}
+                {!! $val->monopoly?'<span class="room-status bg-red">독점</span>':'' !!}
                 <!-- {!! $val->for_sale?'<span class="room-status bg-red">Đang mở bán</span>':'' !!} -->
-                {!! $val->new_product?'<span class="room-status">Newly Launched</span>':'' !!}
+                {!! $val->new_product?'<span class="room-status">신규 출시</span>':'' !!}
             </span>
             <!-- <span class="view-more">Chi tiết</span> -->
             <div class="product-status">
@@ -29,12 +29,12 @@
             </div>
             <div class="d-flex card-body-price">
                 <div class="card-price">
-                    Price: <span class="current-price">
+                    가격: <span class="current-price">
                         {{$val->price >= 1000000000?$val->price/1000000000 . ' B': ($val->price? $val->price/1000000 . ' M':'Contact') }}
                         {{$val->price_max >= 1000000000? ' - ' . $val->price_max/1000000000 . ' B':($val->price_max?' - ' . $val->price_max/1000000 . ' M':'')}}
                     </span>
                 </div>  
-                <div>{{ $val->total_product? $val->total_product.'Units':'' }}</div>
+                <div>{{ $val->total_product? $val->total_product.'유닛':'' }}</div>
             </div>
         </div>
     </div>
