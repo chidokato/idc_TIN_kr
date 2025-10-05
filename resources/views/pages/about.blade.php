@@ -15,18 +15,18 @@
         <img src="assets/images/gioithieu/slider.jpg">
     </div>
     <div class="title">
-        <h1>About the Company</h1>
+        <h1>회사 소개</h1>
     </div>
 </section>
 
 <section class="section2">
     <div class="menu">
         <ul>
-            <li> <a class="nav-link" href="#gioithieu">About Us</a> </li>
-            <li> <a class="nav-link" href="#tamnhin">Vision & Mission</a> </li>
-            <li> <a class="nav-link" href="#muctieu">Strategic Goals</a> </li>
-            <li> <a class="nav-link" href="#dichvu">Services</a> </li>
-            <li> <a class="nav-link" href="#lanhdao">Leadership Team</a> </li>
+            <li> <a class="nav-link" href="#gioithieu">회사 소개</a> </li>
+            <li> <a class="nav-link" href="#tamnhin">비전 및 미션</a> </li>
+            <li> <a class="nav-link" href="#muctieu">전략적 목표</a> </li>
+            <li> <a class="nav-link" href="#dichvu">서비스</a> </li>
+            <li> <a class="nav-link" href="#lanhdao">경영진 팀</a> </li>
         </ul>
     </div>
 </section>
@@ -42,9 +42,9 @@
                 </div>
                 <div class="col-md-8">
                     <div class="content">
-                        <p>Founded from passion, built on aspiration, and nurtured by dedication, INDOCHINE Real Estate JSC is rising to become one of the leading real estate enterprises in Vietnam.</p>
-                        <p>In 2022, the real estate market endured an unprecedented downturn, forcing hundreds of property companies to close, dissolve, or downsize. Seizing the moment with sharp foresight, INDOCHINE turned challenges into opportunities and made its official debut with a grand launch event, marking the rise of a ‘new star’ in the industry. Backed by proven results, INDOCHINE quickly made waves across the market with hundreds of successful transactions, pioneering efforts to ‘break the ice’ in a frozen real estate landscape. Building on this momentum, INDOCHINE has continued to grow remarkably, rightfully earning its reputation as the ‘dark horse’ of Vietnam’s real estate market.</p>
-                        <p>In particular, INDOCHINE takes pride in being among the first enterprises to bring Vietnamese real estate onto the global stage, pioneering in providing comprehensive real estate services for international clients seeking to settle or invest in Vietnam. With capability, passion, professionalism, and deep market insight, INDOCHINE promises to be a trusted bridge, delivering to our valued clients and investors exceptional properties of outstanding value and high liquidity.</p>
+                        <p>열정에서 시작되어, 포부로 세워지고, 헌신으로 성장한 INDOCHINE 부동산 주식회사는 베트남의 선도적인 부동산 기업 중 하나로 성장하고 있습니다.</p>
+                        <p>2022년, 부동산 시장은 전례 없는 침체를 겪으며 수백 개의 부동산 기업이 폐업, 해산 또는 축소를 강요받았습니다. 그러나 INDOCHINE은 날카로운 통찰력으로 그 순간을 포착하여 위기를 기회로 전환시켰습니다. 성대한 런칭 이벤트를 통해 공식적으로 데뷔하며 업계의 ‘새로운 별’로 떠올랐습니다. 검증된 성과를 바탕으로 INDOCHINE은 수백 건의 성공적인 거래를 달성하며 얼어붙은 부동산 시장의 ‘빙하를 깨는’ 선구적인 역할을 했습니다. 이러한 추진력을 기반으로 INDOCHINE은 놀라운 성장을 이어가며 베트남 부동산 시장의 ‘다크호스’로서 확고한 명성을 얻고 있습니다.</p>
+                        <p>특히 INDOCHINE은 베트남 부동산을 세계 무대에 소개한 선도 기업 중 하나로서 자부심을 가지고 있습니다. 베트남에 정착하거나 투자하려는 해외 고객을 위해 종합적인 부동산 서비스를 개척적으로 제공하고 있습니다. 탁월한 역량, 열정, 전문성, 그리고 깊은 시장 통찰력을 바탕으로 INDOCHINE은 신뢰할 수 있는 가교가 되어, 소중한 고객과 투자자들에게 뛰어난 가치와 높은 유동성을 지닌 우수한 부동산을 제공할 것을 약속드립니다.</p>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Leading Real Estate Developer & Distributor</h2>
+                    <h2>선도적인 부동산 개발 및 분양 기업</h2>
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="assets/images/gioithieu/quymo-02.png"></div>
@@ -85,11 +85,11 @@
                     <div class="content">
                         <div class="title">
                             <img src="assets/images/gioithieu/tam-nhin-1.png">
-                            <h3>Vision</h3>
+                            <h3>비전</h3>
                         </div>
-                        <p>Trở thành đơn vị phân phối, cho thuê và quản lý các sản phẩm bất động sản năng động, linh hoạt tại Việt Nam & Quốc tế.</p>
-                        <p>To become a leading enterprise in digital transformation and creating exceptional value.</p>
-                        <p>To be the top choice real estate developer and distributor in Vietnam.</p>
+                        <p>베트남 및 국제 시장에서 역동적이고 유연한 부동산 분양, 임대 및 관리 기업으로 성장하다.</p>
+                        <p>디지털 전환을 선도하고 탁월한 가치를 창출하는 대표적인 기업으로 성장하다</p>
+                        <p>베트남에서 최고의 선택이 되는 부동산 개발 및 분양 기업이 되다.</p>
                     </div>
                 </div>
             </div>
@@ -104,9 +104,9 @@
                         <div class="img"><img src="assets/images/gioithieu/bg_sumenh.png"></div>
                         <div class="text">
                             <img class="icon" src="assets/images/gioithieu/icon_su menh.png">
-                            <p>To provide superior products and services, enhance quality of life, and increase value for customers</p>
-                            <p>To deliver professional services and perfect solutions</p>
-                            <p>To adhere to the highest standards of business ethics and social responsibility, creating pride in a successful real estate brand</p>
+                            <p>우수한 제품과 서비스를 제공하여 삶의 질을 향상시키고 고객의 가치를 높이다</p>
+                            <p>전문적인 서비스와 완벽한 솔루션을 제공하다</p>
+                            <p>최고 수준의 비즈니스 윤리와 사회적 책임을 준수하며, 성공적인 부동산 브랜드로서 자부심을 세우다</p>
                         </div>
                     </div>
                 </div>
@@ -121,10 +121,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="img"> <img src="assets/images/icon_muctieu.png"> </div>
-                    <h2>Strategic Goals</h2>
-                    <p>In the next five years, to become a leading enterprise in Vietnam in real estate investment, trading, distribution, and leasing</p>
-                    <p>To continuously refine and professionalize services, creating the best and most suitable values</p>
-                    <p>Service business will be the spearhead sector driving Indochine’s entry into the international market</p>
+                    <h2>전략적 목표</h2>
+                    <p>향후 5년 내에 베트남의 부동산 투자, 거래, 분양 및 임대 분야에서 선도적인 기업으로 성장하다</p>
+                    <p>서비스를 지속적으로 개선하고 전문화하여 최적의 가치와 가장 적합한 솔루션을 제공하다</p>
+                    <p>서비스 사업은 INDOCHINE의 국제 시장 진출을 견인하는 선도적인 핵심 분야가 될 것이다</p>
                 </div>
             </div>
         </div>
@@ -135,30 +135,30 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Comprehensive Real Estate Services</h2>
-                <h3>ONE-STOP REAL ESTATE SERVICE</h3>
+                <h2>종합 부동산 서비스</h2>
+                <h3>원스톱 부동산 서비스</h3>
 
                 <div class="swiper mySwiper1">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide iteam1">
-                            <h4>DEVELOPMENT</h4>
-                            <p>Real Estate Project Development and Business</p>
+                            <h4>개발</h4>
+                            <p>부동산 프로젝트 개발 및 사업</p>
                         </div>
                         <div class="swiper-slide iteam2">
-                            <h4>CONSULTING</h4>
-                            <p>Real Estate Project Brand Strategy & Marketing Consulting</p>
+                            <h4>컨설팅</h4>
+                            <p>부동산 프로젝트 브랜드 전략 및 마케팅 컨설팅</p>
                         </div>
                         <div class="swiper-slide iteam3">
-                            <h4>PROPERTY</h4>
-                            <p>Real Estate Project Distribution & Leasing</p>
+                            <h4>자산</h4>
+                            <p>부동산 프로젝트 분양 및 임대</p>
                         </div>
                         <div class="swiper-slide iteam4">
-                            <h4>HOSPITALITY</h4>
-                            <p>Real Estate Operations & Management</p>
+                            <h4>호스피탈리티</h4>
+                            <p>부동산 운영 및 관리</p>
                         </div>
                         <div class="swiper-slide iteam5">
-                            <h4>GLOBAL</h4>
-                            <p>Comprehensive Real Estate Services for International Clients</p>
+                            <h4>글로벌</h4>
+                            <p>해외 고객을 위한 종합 부동산 서비스</p>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -173,7 +173,7 @@
 <div id="lanhdao">
 <section class="section9">
     <div class="container">
-        <h2>Leadership Team</h2>
+        <h2>경영진 팀</h2>
         <div class="row hangle" style="background:url(assets/images/gioithieu/bg_lanhdao1.png); background-size: cover;">
             <div class="col-md-1"></div>
             <div class="col-md-5">
@@ -181,19 +181,19 @@
                     <div class="timeline-entry">
                         <div class="timeline-time">2006 - 2020</div>
                         <div class="timeline-content">
-                            <p>Holding senior leadership positions at leading real estate corporations in Vietnam, such as Novaland, FLC Group, Dat Xanh Group, and Dat Xanh Northern,...</p>
+                            <p>Novaland, FLC 그룹, Đất Xanh 그룹, Đất Xanh Northern 등 베트남의 주요 부동산 기업에서 고위 임원직을 역임</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
-                        <div class="timeline-time">Năm 2021</div>
+                        <div class="timeline-time">2021년</div>
                         <div class="timeline-content">
-                            <p>Founder of the Vietnam Homes Group brand</p>
+                            <p>Vietnam Homes Group 브랜드 설립</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
-                        <div class="timeline-time">Năm 2022</div>
+                        <div class="timeline-time">2022년</div>
                         <div class="timeline-content">
-                            <p>Founder of the INDOCHINE Real Estate brand</p>
+                            <p>INDOCHINE 부동산 브랜드 설립</p>
                         </div>
                     </div>
                 </div>
@@ -201,8 +201,8 @@
             <div class="col-md-4">
                 <div class="info">
                     <div class="img"> <img src="assets/images/gioithieu/C-Hang.png"> </div>
-                    <div class="name">BÀ LÊ THỊ HẰNG</div>
-                    <div class="function"> Chief Executive Officer <br> INDOCHINE Real Estate Joint Stock Company </div>
+                    <div class="name">레 티 항</div>
+                    <div class="function"> 최고경영자(CEO) <br> INDOCHINE 부동산 주식회사 </div>
                 </div>
             </div>
         </div>
@@ -211,8 +211,8 @@
             <div class="col-md-4">
                 <div class="info">
                     <div class="img"> <img src="assets/images/gioithieu/hai-anh.png"> </div>
-                    <div class="name">ÔNG NGUYỄN HẢI ANH</div>
-                    <div class="function"> Business Director <br> INDOCHINE Real Estate Joint Stock Company </div>
+                    <div class="name">응우옌 하이 아잉</div>
+                    <div class="function"> 영업이사 <br> INDOCHINE 부동산 주식회사 </div>
                 </div>
             </div>
             <div class="col-md-5">
@@ -220,19 +220,19 @@
                     <div class="timeline-entry">
                         <div class="timeline-time">2013 - 2021</div>
                         <div class="timeline-content">
-                            <p>Ministry of Agriculture and Rural Development</p>
+                            <p>베트남 농업농촌개발부 근무</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
                         <div class="timeline-time">2021 - 2022</div>
                         <div class="timeline-content">
-                            <p>Head of Sales Department – Dat Xanh Mien Bac</p>
+                            <p>Đất Xanh Mien Bac 영업부장</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
-                        <div class="timeline-time">2022 - Nay</div>
+                        <div class="timeline-time">2022 - 현재</div>
                         <div class="timeline-content">
-                            <p>Sales Director <br> INDOCHINE Real Estate Joint Stock Company </p>
+                            <p>영업이사 <br> INDOCHINE 부동산 주식회사 </p>
                         </div>
                     </div>
                 </div>
@@ -242,6 +242,7 @@
     </div>
 </section>
 </div>
+
 
 @endsection
 
