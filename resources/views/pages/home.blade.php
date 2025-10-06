@@ -67,7 +67,7 @@
 
         <div class="load-more text-center mt-4 pt-2">
             <div class="cta-btn ir">
-                <a class="" target="_blank" href="du-an"><span class="cta-text font-weight-semibold">모두 보기</span><span class="cta-ico"><i class="icon-next"></i></span></a>
+                <a class="" target="_blank" href="projects"><span class="cta-text font-weight-semibold">모두 보기</span><span class="cta-ico"><i class="icon-next"></i></span></a>
             </div>
         </div>
     </div>
@@ -161,7 +161,7 @@
         </div>
         <div class="load-more text-center mt-4 pt-2">
             <div class="cta-btn ir">
-                <a class="" href="tin-tuc"><span class="cta-text font-weight-semibold">모두 보기</span><span class="cta-ico"><i class="icon-next"></i></span></a>
+                <a class="" href="news"><span class="cta-text font-weight-semibold">모두 보기</span><span class="cta-ico"><i class="icon-next"></i></span></a>
             </div>
         </div>
     </div>
