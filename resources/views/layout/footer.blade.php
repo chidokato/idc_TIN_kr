@@ -12,13 +12,13 @@
                         </div>
                         <span class="ft-contact-item-ico"><i class="icon-phone-filled"></i></span>
                     </div>
-                    <div class="ft-contact-item">
+                    <!-- <div class="ft-contact-item">
                         <div class="ft-contact-item-text">
                             <h6>본사</h6>
                             <span>Tầng 5 tòa nhà Vạn Gia Phát, Số 1 Trần Khánh Dư, Phường Tân Định, Thành Phố Hồ Chí Minh, Việt Nam</span>
                         </div>
                         <span class="ft-contact-item-ico"><i class="icon-building-filled"></i></span>
-                    </div>
+                    </div> -->
                     <div class="ft-contact-item">
                         <div class="ft-contact-item-text">
                             <h6>사무실 주소</h6>
@@ -43,7 +43,7 @@
                     
                     <div class="col-md-6">
                         <div class="ft-link">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15676.90695339032!2d106.6893047!3d10.7939386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528cdeb13ffff%3A0x8db7b80bb49f4899!2zQ8O0bmcgVHkgQ-G7lSBQaOG6p24gQuG6pXQgxJDhu5luZyBT4bqjbiBJbmRvY2hpbmU!5e0!3m2!1svi!2s!4v1718358591174!5m2!1svi!2s" style="border:0; width: 100%; height: 300px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            {!! $setting->maps !!}
                         </div>
                     </div>
                 </div>
