@@ -66,3 +66,15 @@
 .kakao .hotline-phone-ring-circle-fill{
     background-color: #fae300bf;
 }
+
+
+@media (max-width: 480px) {
+.kakao {
+    bottom: 0px;
+    right: 0;
+    left: auto;
+}
+.kakao .hotline-bar{ background:none; }
+
+}
+
