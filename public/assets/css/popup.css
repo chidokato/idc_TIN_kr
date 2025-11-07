@@ -54,3 +54,5 @@
 .popup-content form>label{ width:100%; position:relative; }
 .popup-content form label.error{ position:absolute; top:11px; right:12px; color:red; font-size:.8rem }
 .popup-content form input.error{ border:1px solid red; }
+
+.kakao{ bottom: 162px }
