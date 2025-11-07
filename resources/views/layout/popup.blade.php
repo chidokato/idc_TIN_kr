@@ -3,13 +3,13 @@
         <div class="hotline-phone-ring-circle"></div>
         <div class="hotline-phone-ring-circle-fill"></div>
         <div class="hotline-phone-ring-img-circle click_popup">
-            <a href="javascript:void(0)" class="pps-btn-img">
-                <img src="assets/img/icon/dowload.png" alt="전화 걸기" width="50">
+            <a href="https://open.kakao.com/o/lynguyen1810" class="pps-btn-img">
+                <img src="assets/img/icon/Kakao_logo.png" alt="전화 걸기" width="50">
             </a>
         </div>
         <div class="hotline-bar click_popup">
             <a href="javascript:void(0)">
-                <span class="text-hotline">가격표 다운로드</span>
+                <span class="text-hotline">kakaotalk</span>
             </a>
         </div>
     </div>
