@@ -60,6 +60,9 @@
 .kakao .hotline-bar {
     background: #fae300bf;
 }
-.kakao .hotline-phone-ring-circle, .kakao .hotline-phone-ring-circle-fill, .kakao .hotline-phone-ring-circle-fill {
+.kakao .hotline-phone-ring-circle{
     border: 2px solid #fae300bf;
+}
+.kakao .hotline-phone-ring-circle-fill{
+    background-color: #fae300bf;
 }
