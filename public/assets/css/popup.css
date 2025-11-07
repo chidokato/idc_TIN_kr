@@ -55,8 +55,11 @@
 .popup-content form label.error{ position:absolute; top:11px; right:12px; color:red; font-size:.8rem }
 .popup-content form input.error{ border:1px solid red; }
 
-.kakao{ bottom: 162px }
+.kakao{ bottom: 142px }
 
 .kakao .hotline-bar {
     background: #fae300bf;
+}
+.kakao .hotline-phone-ring-circle, .kakao .hotline-phone-ring-circle-fill {
+    border: 2px solid #fae300bf;
 }
