@@ -8,7 +8,7 @@
             </a>
         </div>
         <div class="hotline-bar click_popup">
-            <a href="javascript:void(0)">
+            <a href="https://open.kakao.com/o/lynguyen1810">
                 <span class="text-hotline">kakaotalk</span>
             </a>
         </div>
