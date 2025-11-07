@@ -56,3 +56,7 @@
 .popup-content form input.error{ border:1px solid red; }
 
 .kakao{ bottom: 162px }
+
+.kakao .hotline-bar {
+    background: #fae300bf;
+}
