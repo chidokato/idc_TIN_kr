@@ -20,7 +20,7 @@
         <div class="hotline-phone-ring-circle"></div>
         <div class="hotline-phone-ring-circle-fill"></div>
         <div class="hotline-phone-ring-img-circle">
-            <a target="_blank" href="https://open.kakao.com/o/lynguyen1810" class="pps-btn-img">
+            <a target="_blank" href="https://open.kakao.com/o/sWQUxU0h" class="pps-btn-img">
                 <img src="assets/img/icon/Kakao_logo.png" alt="Zalo 채팅" width="50">
             </a>
         </div>
