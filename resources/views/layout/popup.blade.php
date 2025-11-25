@@ -25,7 +25,7 @@
             </a>
         </div>
         <div class="hotline-bar">
-            <a target="_blank" href="https://open.kakao.com/o/lynguyen1810">
+            <a target="_blank" href="https://open.kakao.com/o/sWQUxU0h">
                 <span class="text-hotline">kakaotalk</span>
             </a>
         </div>
