@@ -50,15 +50,17 @@
     <link href="assets/css/popup.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8R10SSS97Z"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-8R10SSS97Z"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-8R10SSS97Z');
-    </script>
+    </script> -->
 
+    {{$setting->footer}}
+    
     @yield('css')
     
 </head>
