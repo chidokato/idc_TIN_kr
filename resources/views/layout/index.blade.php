@@ -59,8 +59,8 @@
       gtag('config', 'G-8R10SSS97Z');
     </script> -->
 
-    {{$setting->footer}}
-    
+    {!! $setting->footer !!}
+
     @yield('css')
     
 </head>
