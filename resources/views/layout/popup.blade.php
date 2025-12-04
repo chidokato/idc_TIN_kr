@@ -77,7 +77,7 @@
                 <input type="text" name="name" placeholder="이름 (*)">
             </label>
             <label>
-                <input type="text" name="phone" placeholder="전화번호 (*)">
+                <input type="text" name="phone" placeholder="카톡ID/전화번호 (*)">
             </label>
             <label>
                 <input type="text" name="email" placeholder="이메일">
