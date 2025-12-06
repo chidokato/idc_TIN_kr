@@ -58,12 +58,12 @@
                     <h2>선도적인 부동산 개발 및 분양 기업</h2>
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="assets/images/gioithieu/quymo-02.png"></div>
-                            <div class="swiper-slide"><img src="assets/images/gioithieu/quymo-03.png"></div>
-                            <div class="swiper-slide"><img src="assets/images/gioithieu/quymo-04.png"></div>
-                            <div class="swiper-slide"><img src="assets/images/gioithieu/quymo-05.png"></div>
-                            <div class="swiper-slide"><img src="assets/images/gioithieu/quymo-06.png"></div>
-                            <div class="swiper-slide"><img src="assets/images/gioithieu/quymo-07.png"></div>
+                            <div class="swiper-slide"><img src="assets/images/gioithieu/kr-quymo-02.png"></div>
+                            <div class="swiper-slide"><img src="assets/images/gioithieu/kr-quymo-03.png"></div>
+                            <div class="swiper-slide"><img src="assets/images/gioithieu/kr-quymo-04.png"></div>
+                            <div class="swiper-slide"><img src="assets/images/gioithieu/kr-quymo-05.png"></div>
+                            <div class="swiper-slide"><img src="assets/images/gioithieu/kr-quymo-06.png"></div>
+                            <div class="swiper-slide"><img src="assets/images/gioithieu/kr-quymo-07.png"></div>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -238,6 +238,46 @@
                 </div>
             </div>
             
+        </div>
+
+        <div class="row hangle mt-5" style="background:url(assets/images/gioithieu/bg_lanhdao1.png); background-size: cover;">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="timeline">
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2009 - 2016</div>
+                        <div class="timeline-content">
+                            <p>Former Student of Financial Management and Business Administration – Kaplan University Singapore</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2016 - 2018</div>
+                        <div class="timeline-content">
+                            <p>Co-Founder of Dung Thao Trading Ltd, a Building Materials Company</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2019 - 2020</div>
+                        <div class="timeline-content">
+                            <p>Head of International Sales Department at Dat Xanh Mien Bac Real Estate Company</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2021-2025</div>
+                        <div class="timeline-content">
+                            <p>MBA – Director of Domestic and International Sales, Indochine Real Estate Joint Stock Company - Ho Chi Minh City Branch</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info">
+                    <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/tin.png"> </div>
+                    <div class="name">Ông. PHẠM TRUNG TÍN</div>
+                    <div class="function"> MBA Certificate Holder <br> Sale & Digital Marketing Director
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
