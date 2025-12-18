@@ -285,7 +285,7 @@
                 <div class="info">
                     <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/avara.jpg"> </div>
                     <div class="name">Ms. Nguyễn Thị Lý</div>
-                    <div class="function"> 한국 사업 부문 이사
+                    <div class="function"> 한국 고객 영업팀장
                     </div>
                 </div>
             </div>
