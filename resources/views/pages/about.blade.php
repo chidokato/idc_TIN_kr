@@ -272,7 +272,7 @@
             <div class="col-md-4">
                 <div class="info">
                     <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/tin.png"> </div>
-                    <div class="name">Ông. PHẠM TRUNG TÍN</div>
+                    <div class="name">Mr. PHẠM TRUNG TÍN</div>
                     <div class="function"> MBA 자격증 소지자 <br> 영업 및 디지털 마케팅 이사
                     </div>
                 </div>
