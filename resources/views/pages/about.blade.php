@@ -201,7 +201,7 @@
             <div class="col-md-4">
                 <div class="info">
                     <div class="img"> <img src="assets/images/gioithieu/C-Hang.png"> </div>
-                    <div class="name">레 티 항</div>
+                    <div class="name">Lê Thị Hằng</div>
                     <div class="function"> 최고경영자(CEO) <br> INDOCHINE 부동산 주식회사 </div>
                 </div>
             </div>
@@ -211,7 +211,7 @@
             <div class="col-md-4">
                 <div class="info">
                     <div class="img"> <img src="assets/images/gioithieu/hai-anh.png"> </div>
-                    <div class="name">응우옌 하이 아잉</div>
+                    <div class="name">Mr. Nguyễn Hải Anh</div>
                     <div class="function"> 영업이사 <br> INDOCHINE 부동산 주식회사 </div>
                 </div>
             </div>
