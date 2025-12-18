@@ -280,11 +280,12 @@
         </div>
 
         <div class="row hangle mt-5" style="background:url(assets/images/gioithieu/bg_lanhdao1.png); background-size: cover;">
+            <div class="col-md-1"></div>
             <div class="col-md-4">
                 <div class="info">
                     <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/avara.jpg"> </div>
-                    <div class="name">Ông. PHẠM TRUNG TÍN</div>
-                    <div class="function"> MBA 자격증 소지자 <br> 영업 및 디지털 마케팅 이사
+                    <div class="name">Ms. Nguyễn Thị Lý</div>
+                    <div class="function"> 한국 사업 부문 이사
                     </div>
                 </div>
             </div>
@@ -310,7 +311,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-1"></div>
+            
         </div>
 
     </div>
