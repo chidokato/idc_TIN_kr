@@ -237,7 +237,6 @@
                     </div>
                 </div>
             </div>
-            
         </div>
 
         <div class="row hangle mt-5" style="background:url(assets/images/gioithieu/bg_lanhdao1.png); background-size: cover;">
@@ -247,25 +246,25 @@
                     <div class="timeline-entry">
                         <div class="timeline-time">2009 - 2016</div>
                         <div class="timeline-content">
-                            <p>Former Student of Financial Management and Business Administration – Kaplan University Singapore</p>
+                            <p>Kaplan University Singapore에서 재무 관리 및 경영학을 전공한 전직 학생</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
                         <div class="timeline-time">2016 - 2018</div>
                         <div class="timeline-content">
-                            <p>Co-Founder of Dung Thao Trading Ltd, a Building Materials Company</p>
+                            <p>건축 자재 회사인 Dung Thao Trading Ltd의 공동 창립자</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
                         <div class="timeline-time">2019 - 2020</div>
                         <div class="timeline-content">
-                            <p>Head of International Sales Department at Dat Xanh Mien Bac Real Estate Company</p>
+                            <p>Dat Xanh Mien Bac 부동산 회사의 국제 영업 부서장</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
                         <div class="timeline-time">2021-2025</div>
                         <div class="timeline-content">
-                            <p>MBA – Director of Domestic and International Sales, Indochine Real Estate Joint Stock Company - Ho Chi Minh City Branch</p>
+                            <p>MBA – Indochine 부동산 주식회사의 국내 및 국제 영업 이사 (호치민시 지점)</p>
                         </div>
                     </div>
                 </div>
@@ -274,11 +273,52 @@
                 <div class="info">
                     <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/tin.png"> </div>
                     <div class="name">Ông. PHẠM TRUNG TÍN</div>
-                    <div class="function"> MBA Certificate Holder <br> Sale & Digital Marketing Director
+                    <div class="function"> MBA 자격증 소지자 <br> 영업 및 디지털 마케팅 이사
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="row hangle mt-5" style="background:url(assets/images/gioithieu/bg_lanhdao1.png); background-size: cover;">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="timeline">
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2009 - 2016</div>
+                        <div class="timeline-content">
+                            <p>Kaplan University Singapore에서 재무 관리 및 경영학을 전공한 전직 학생</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2016 - 2018</div>
+                        <div class="timeline-content">
+                            <p>건축 자재 회사인 Dung Thao Trading Ltd의 공동 창립자</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2019 - 2020</div>
+                        <div class="timeline-content">
+                            <p>Dat Xanh Mien Bac 부동산 회사의 국제 영업 부서장</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2021-2025</div>
+                        <div class="timeline-content">
+                            <p>MBA – Indochine 부동산 주식회사의 국내 및 국제 영업 이사 (호치민시 지점)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info">
+                    <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/tin.png"> </div>
+                    <div class="name">Ông. PHẠM TRUNG TÍN</div>
+                    <div class="function"> MBA 자격증 소지자 <br> 영업 및 디지털 마케팅 이사
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 </div>
