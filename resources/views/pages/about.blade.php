@@ -280,43 +280,37 @@
         </div>
 
         <div class="row hangle mt-5" style="background:url(assets/images/gioithieu/bg_lanhdao1.png); background-size: cover;">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
-                <div class="timeline">
-                    <div class="timeline-entry">
-                        <div class="timeline-time">2009 - 2016</div>
-                        <div class="timeline-content">
-                            <p>Kaplan University Singapore에서 재무 관리 및 경영학을 전공한 전직 학생</p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <div class="timeline-time">2016 - 2018</div>
-                        <div class="timeline-content">
-                            <p>건축 자재 회사인 Dung Thao Trading Ltd의 공동 창립자</p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <div class="timeline-time">2019 - 2020</div>
-                        <div class="timeline-content">
-                            <p>Dat Xanh Mien Bac 부동산 회사의 국제 영업 부서장</p>
-                        </div>
-                    </div>
-                    <div class="timeline-entry">
-                        <div class="timeline-time">2021-2025</div>
-                        <div class="timeline-content">
-                            <p>MBA – Indochine 부동산 주식회사의 국내 및 국제 영업 이사 (호치민시 지점)</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-md-4">
                 <div class="info">
-                    <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/tin.png"> </div>
+                    <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/avara.jpg"> </div>
                     <div class="name">Ông. PHẠM TRUNG TÍN</div>
                     <div class="function"> MBA 자격증 소지자 <br> 영업 및 디지털 마케팅 이사
                     </div>
                 </div>
             </div>
+            <div class="col-md-5">
+                <div class="timeline">
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2019 - 2022</div>
+                        <div class="timeline-content">
+                            <p>경기대학교 호텔경영학 전공 졸업</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2022 - 2023</div>
+                        <div class="timeline-content">
+                            <p>화이트치과 국제부 마케팅 직원</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2023 - 2025</div>
+                        <div class="timeline-content">
+                            <p>한국사업본부 영업부장</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
         </div>
 
     </div>
