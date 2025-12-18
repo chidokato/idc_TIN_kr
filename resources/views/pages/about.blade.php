@@ -201,7 +201,7 @@
             <div class="col-md-4">
                 <div class="info">
                     <div class="img"> <img src="assets/images/gioithieu/C-Hang.png"> </div>
-                    <div class="name">Lê Thị Hằng</div>
+                    <div class="name">Ms. Lê Thị Hằng</div>
                     <div class="function"> 최고경영자(CEO) <br> INDOCHINE 부동산 주식회사 </div>
                 </div>
             </div>
