@@ -23,12 +23,12 @@
     <div class="hotline-phone-ring">
         <div class="hotline-phone-ring-circle"></div>
         <div class="hotline-phone-ring-circle-fill"></div>
-        <div class="hotline-phone-ring-img-circle">
+        <div class="hotline-phone-ring-img-circle click_wechat">
             <a href="javascript:void(0)" class="pps-btn-img">
                 <img src="assets/img/icon/Kakao_logo.png" alt="Zalo 채팅" width="50">
             </a>
         </div>
-        <div class="hotline-bar">
+        <div class="hotline-bar click_wechat">
             <a href="javascript:void(0)">
                 <span class="text-hotline">kakaotalk</span>
             </a>
