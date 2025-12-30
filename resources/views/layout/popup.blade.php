@@ -1,4 +1,4 @@
-<div class="hotline-phone-ring-wrap form-ring-wrap">
+<!-- <div class="hotline-phone-ring-wrap form-ring-wrap kakao">
     <div class="hotline-phone-ring ">
         <div class="hotline-phone-ring-circle"></div>
         <div class="hotline-phone-ring-circle-fill"></div>
@@ -10,6 +10,27 @@
         <div class="hotline-bar click_wechat">
             <a href="javascript:void(0)">
                 <span class="text-hotline">Wechat</span>
+            </a>
+        </div>
+    </div>
+    <div class="wechat-mini-popup" id="wechatMiniPopup">
+        <img src="assets/img/icon/krqr.jpg" alt="kakaotalk QR">
+        <p>ID: Lynguyen1810</p>
+    </div>
+</div> -->
+
+<div class="hotline-phone-ring-wrap zalo-ring-wrap kakao" >
+    <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+            <a href="javascript:void(0)" class="pps-btn-img">
+                <img src="assets/img/icon/Kakao_logo.png" alt="Zalo 채팅" width="50">
+            </a>
+        </div>
+        <div class="hotline-bar">
+            <a href="javascript:void(0)">
+                <span class="text-hotline">kakaotalk</span>
             </a>
         </div>
     </div>
