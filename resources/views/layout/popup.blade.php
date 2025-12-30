@@ -36,7 +36,7 @@
     </div>
     <div class="wechat-mini-popup" id="wechatMiniPopup">
         <img src="assets/img/icon/krqr.jpg" alt="kakaotalk QR">
-        <p>ID: Lynguyen1810</p>
+        <!-- <p>ID: Lynguyen1810</p> -->
     </div>
 </div>
 
