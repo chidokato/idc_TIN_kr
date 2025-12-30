@@ -1,3 +1,24 @@
+<div class="hotline-phone-ring-wrap form-ring-wrap">
+    <div class="hotline-phone-ring ">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle click_wechat">
+            <a href="javascript:void(0)" class="pps-btn-img">
+                <img style="width: 35px;height: 35px;border-radius: 100%;" src="assets/img/icon/Kakao_logo.png" alt="Gọi điện thoại" width="50">
+            </a>
+        </div>
+        <div class="hotline-bar click_wechat">
+            <a href="javascript:void(0)">
+                <span class="text-hotline">Wechat</span>
+            </a>
+        </div>
+    </div>
+    <div class="wechat-mini-popup" id="wechatMiniPopup">
+        <img src="assets/img/icon/krqr.jpg" alt="kakaotalk QR">
+        <p>ID: Lynguyen1810</p>
+    </div>
+</div>
+
 <!-- <div class="hotline-phone-ring-wrap form-ring-wrap">
     <div class="hotline-phone-ring">
         <div class="hotline-phone-ring-circle"></div>
@@ -15,7 +36,7 @@
     </div>
 </div> -->
 
-<div class="hotline-phone-ring-wrap zalo-ring-wrap kakao" >
+<!-- <div class="hotline-phone-ring-wrap zalo-ring-wrap kakao" >
     <div class="hotline-phone-ring">
         <div class="hotline-phone-ring-circle"></div>
         <div class="hotline-phone-ring-circle-fill"></div>
@@ -30,7 +51,7 @@
             </a>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="hotline-phone-ring-wrap zalo-ring-wrap">
     <div class="hotline-phone-ring">
@@ -96,4 +117,26 @@
             urlInput.value = window.location.href;
         }
     });
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    const btns = document.querySelectorAll('.click_wechat');
+    const popup = document.getElementById('wechatMiniPopup');
+
+    btns.forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            popup.style.display = 
+                popup.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+
+    // Click ra ngoài thì ẩn
+    document.addEventListener('click', function () {
+        popup.style.display = 'none';
+    });
+
+});
 </script>
