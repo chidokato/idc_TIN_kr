@@ -116,13 +116,13 @@
             @csrf
             <input type="hidden" id="current-url" name="url" value="">
             <label>
-                <input type="text" name="name" placeholder="이름 (*)">
+                <input type="text" name="name" placeholder="이름 (*)" required>
             </label>
             <label>
-                <input type="text" name="phone" placeholder="카톡ID/전화번호 (*)">
+                <input type="email" name="email" placeholder="이메일 (*)" required>
             </label>
             <label>
-                <input type="text" name="email" placeholder="이메일">
+                <input type="text" name="wechat" placeholder="Kakaotalk ID (*)" required>
             </label>
             <p class="sub">(*) ‘견적 요청’을 클릭하면 개인정보 처리방침에 동의하는 것으로 간주됩니다.</p>
             <button class="btn btn-circle" type="submit">지금 보내기</button>
